@@ -1,18 +1,20 @@
 import { Link, Outlet } from "react-router-dom";
-import NavbarIndex from "./pages/Navbar/NavbarIndex";
-import Footer from "./pages/Footer/Footer";
+
+import { Home } from "./pages/Home";
+import ClubsIndex from "./pages/Clubs/ClubsIndex";
 
 export default function App() {
   return (
     <>
       {/* ---- navbar top fixed content ------ */}
 
-      <NavbarIndex />
+      
 
-
-      <Outlet />
+       <Home/>
+       <ClubsIndex/>
+       
+      {/* <Outlet /> */}
       {/* ----- fixed content -------- */}
-      <Footer/>
     </>
   );
 }

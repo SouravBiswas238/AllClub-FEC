@@ -10,13 +10,13 @@ const NavbarIndex = (props) => {
   };
 
   return (
-    <header className="p-4 bg-black text-gray-100">
+    <header className="p-4 bg-black ">
       <div className="container flex justify-between h-16 mx-auto">
         <div className="flex items-center p-2">
           <img
-            className="text-white "
-            src="https://i.ibb.co/3NxJ6n0/small-5117-65af94828c8a1-removebg-preview.png"
-            alt="small-5117-65af94828c8a1-removebg-preview"
+            className="text-white h-24 "
+            src="https://i.ibb.co/k2cNzKf/Untitled-2-removebg-preview.png"
+            alt="club-sphere-logo"
             border="0"
           />
         </div>

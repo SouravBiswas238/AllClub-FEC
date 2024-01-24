@@ -4,14 +4,19 @@ import { Home } from "./pages/Home";
 import Contact from "./pages/Contact";
 import App from "./App";
 import { createRoot } from 'react-dom';
+import SingleClubs from "./pages/SingleClubs/SingleClubs";
+import Layout from "./pages/Navbar/Layout";
 
 const router = createBrowserRouter([
+  
   {
+    
     path: "/",
-    element: <App />,
+    element: <Layout> <App /></Layout>,
+
     children: [
       {
-        path: "home",
+        path: "/",
         element: <Home />,
       },
       {
@@ -19,6 +24,12 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
     ],
+  },
+  {
+    path: "/clubs/:id",
+    element: <Layout>
+              <SingleClubs />
+            </Layout>,
   },
 ]);
 
