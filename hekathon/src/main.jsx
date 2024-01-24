@@ -6,6 +6,7 @@ import App from "./App";
 import { createRoot } from 'react-dom';
 import SingleClubs from "./pages/SingleClubs/SingleClubs";
 import Layout from "./pages/Navbar/Layout";
+import './index.css'
 
 const router = createBrowserRouter([
   

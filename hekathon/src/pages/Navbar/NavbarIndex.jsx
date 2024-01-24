@@ -13,18 +13,20 @@ const NavbarIndex = (props) => {
     <header className="p-4 bg-black ">
       <div className="container flex justify-between h-16 mx-auto">
         <div className="flex items-center p-2">
+        <Link to="/">
           <img
-            className="text-white h-24 "
+            className="text-white h-24 cursor-pointer"
             src="https://i.ibb.co/k2cNzKf/Untitled-2-removebg-preview.png"
             alt="club-sphere-logo"
             border="0"
           />
+          </Link>
         </div>
 
 
   <div className="text-fec-green text-[#78E038] items-center flex-shrink-0 hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <Link to="/home">
+      <Link to="/">
       <li><a>About Us</a></li>
       </Link>
 
