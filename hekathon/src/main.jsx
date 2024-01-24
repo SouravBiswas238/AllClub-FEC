@@ -30,6 +30,12 @@ const router = createBrowserRouter([
             </Layout>,
   },
   {
+    path: "/clubs/event/:id",
+    element: <Layout>
+              <ClubEventIndex />
+            </Layout>,
+  },
+  {
     path: "/contact",
     element: <Layout>
               <Contact />
