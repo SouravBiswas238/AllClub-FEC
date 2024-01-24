@@ -267,13 +267,13 @@ const ClabsInfo = ({selectedId}) => {
     
   {/* other member list */}
   
-  <h1 className='text-center md:text-4xl text-3xl mx-auto mt-20 shadow-md mb-5 font-bold uppercase  border-b'>---- Full committee member of the club ----</h1>
+  <h1 className='text-center md:text-4xl text-2xl mx-auto mt-20 shadow-md mb-5 font-bold uppercase  border-b'> Full committee member of the club</h1>
 
   <div className='w-full md:flex items-center justify-center my-5'>
             {
                 singleClubsData.fullMembers?.map((item, index) => (
 
-                <img className=' m-2 inline-block' src={item} alt="" /> 
+                <img className=' md:m-2 py-2 inline-block' src={item} alt="" /> 
                     
                 ))
             }

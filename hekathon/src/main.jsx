@@ -20,16 +20,19 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
+     
     ],
   },
   {
     path: "/clubs/:id",
     element: <Layout>
               <SingleClubs />
+            </Layout>,
+  },
+  {
+    path: "/contact",
+    element: <Layout>
+              <Contact />
             </Layout>,
   },
 ]);

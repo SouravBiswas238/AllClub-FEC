@@ -58,16 +58,17 @@ const SingleClubs = props => {
 
   return (
     <div className='container mx-auto'>
-<h1 className=' font-bold text-center my-3 text-center md:text-5xl text-3xl mx-auto mt-20 shadow-md mb-10 font-bold uppercase'>{club.name}</h1>
+<h1 className=' font-bold text-center my-3  text-center md:text-5xl text-3xl mx-auto mt-20 shadow-md mb-10 font-bold uppercase'>{club.name}</h1>
 
 <div className='relative md:flex hidden'>
 <img className='absolute md:-left-2 lg:-left-24 top-16' src="https://i.ibb.co/vzMKxTc/Group-272.png" alt="Group-272" border="0"/>
 <img className='absolute md:-right-2 lg:-right-20 top-16' src="https://i.ibb.co/sRhmsr1/Group-271.png" alt="Group-271" border="0"/>
 </div>
+{/*  */}
 <div className="hero-content ps-5 flex-col lg:flex-row">
     <img src={club.image} className="max-w-sm rounded-lg shadow-2xl" />
-    <div className='bg-[]'>
-      <h1 className="text-3xl font-bold">{club.name}</h1>
+    <div className=''>
+      <h1 className="md:text-3xl text-2xl  font-bold">{club.name}</h1>
       <p className="py-6">{club.description}</p>
       {/* <button className="btn btn-primary">Get Started</button> */}
     </div>

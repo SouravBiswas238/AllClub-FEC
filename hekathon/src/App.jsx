@@ -2,6 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 
 import { Home } from "./pages/Home";
 import ClubsIndex from "./pages/Clubs/ClubsIndex";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
 
        <Home/>
        <ClubsIndex/>
+       <Contact/>
        
       {/* <Outlet /> */}
       {/* ----- fixed content -------- */}
